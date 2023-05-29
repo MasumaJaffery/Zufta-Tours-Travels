@@ -97,7 +97,7 @@ HTML+CSS+JS+GITHUB
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://masumajaffery.github.io/Module-Capstone-1/)
+- [Live Demo Link](https://masumajaffery.github.io/Module-Capstone--1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
