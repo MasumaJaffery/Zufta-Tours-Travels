@@ -216,7 +216,8 @@ header {
 }
 
 .map {
-  display: none;
+  display: block;
+  margin-bottom: 2rem;
 }
 
 /* Program Section */
