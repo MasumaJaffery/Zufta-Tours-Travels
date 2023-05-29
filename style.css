@@ -3,3 +3,858 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.fa-facebook-f,
+.fa-twitter {
+  color: #fff;
+}
+
+#mobile-nav {
+  display: flex;
+  flex-wrap: wrap;
+  height: 10vh;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #dadada;
+}
+
+#pre-nav,
+#main-nav,
+.prog-see,
+.heading-grid {
+  display: none;
+}
+
+#closebtn {
+  color: #fff;
+  right: 0;
+  padding: 2rem;
+}
+
+#mobile-nav #togglebtn,
+#mobile-nav #closebtn {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 0;
+  margin: 2rem;
+  font-size: 3rem;
+}
+
+.footer-content img {
+  width: 35%;
+}
+
+.heading img {
+  width: 50%;
+}
+
+.btn img {
+  width: 3%;
+}
+
+.invisible ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#mobile-nav a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#mobile-nav img {
+  position: relative;
+  bottom: 12%;
+  margin: 0 auto;
+  height: inherit;
+}
+
+.aeroplane {
+  margin: 0.5rem;
+  width: 7%;
+  animation: fly 5s infinite ease-in-out 1s;
+}
+
+@keyframes fly {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(1250%);
+  }
+}
+
+header {
+  background-image: url("Images/main_big.png");
+  width: 100%;
+}
+
+.invisible {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #17181b;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  position: fixed;
+}
+
+#container {
+  display: none;
+}
+
+.invisible ul {
+  margin: 0 auto;
+  width: 100%;
+  font-size: 3.5rem;
+  list-style: none;
+  padding-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.brands li {
+  padding: 1rem;
+}
+
+.invisible ul li {
+  border-bottom: 1px solid #adadad;
+  padding: 2rem;
+  color: #fff;
+}
+
+.invisible ul li:hover,
+.invisible ul li:active {
+  color: #ec5342;
+}
+
+.nav-btn {
+  height: auto;
+  width: fit-content;
+  padding: 2rem;
+  border: 2px solid #ec5342;
+  background-color: transparent;
+  color: #ec5342;
+  margin: 0 auto;
+  display: flex;
+  font-size: 2.5rem;
+}
+
+.nav-btn:hover,
+.nav-btn:active {
+  background-color: #ec5342;
+  color: #fff;
+}
+
+.content-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 3rem 4rem;
+  align-items: flex-start;
+}
+
+.content h1 {
+  color: #ec5342;
+  font-size: 2.5rem;
+}
+
+.content h2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  font-size: 3rem;
+  color: red;
+}
+
+.photo-curtain span {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.content h2 span {
+  padding-bottom: 0.5rem;
+}
+
+.detial {
+  margin-top: 4%;
+  font-size: 1.3rem;
+  border: 4px solid #fff;
+  padding: 5%;
+  color: #515151;
+}
+
+.date {
+  font-size: 1.8rem;
+  margin-top: 2%;
+  color: #595959;
+}
+
+.copywrite {
+  font-size: 1.2rem;
+  margin-top: 2%;
+  color: #868686;
+  font-weight: 600;
+}
+
+.map {
+  display: block;
+  margin: 2rem;
+}
+
+/* Program Section */
+
+#programs {
+  background-color: #282b32;
+  background-image: url("Images/pattern_bg.png");
+  display: grid;
+  grid-auto-rows: minmax(auto, 60px);
+  justify-items: center;
+  gap: 1.2rem;
+  padding-bottom: 3rem;
+}
+
+.heading hr {
+  background-color: #ff4f38;
+  width: 8%;
+  height: 4px;
+  margin: 0 auto;
+}
+
+.heading {
+  padding: 3rem;
+  margin-bottom: 3%;
+}
+
+.heading h2 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding-bottom: 0.5rem;
+}
+
+#programs .prog {
+  background-color: #3b3e45;
+  width: 90%;
+  height: auto;
+  padding: 2rem;
+  display: flex;
+  gap: 1.4rem;
+}
+
+#programs .prog img {
+  align-items: center;
+  display: flex;
+  width: max-content;
+  height: max-content;
+  position: relative;
+  bottom: 100%;
+}
+
+#programs .prog-flex {
+  display: contents;
+}
+
+.detials h2 {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  order: 0;
+}
+
+#programs .prog h2 {
+  align-items: center;
+  display: flex;
+  color: #ff4f38;
+}
+
+.heading p {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #838383;
+  margin: 2rem;
+}
+
+.detials p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  display: flex;
+  align-items: center;
+  order: 4;
+}
+
+#programs .prog p {
+  width: 100%;
+  height: auto;
+  font-weight: 500;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+
+#programs .trip {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 60%;
+  height: 9vh;
+  justify-content: center;
+  background-color: #ff4f38;
+  color: #fff;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+/* Featured Places */
+
+#featured {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+#featured .heading {
+  padding: 3rem;
+  margin-bottom: 3%;
+  order: 0;
+}
+
+#featured .heading h2 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  color: #000;
+}
+
+.places {
+  display: flex;
+  margin: 2rem;
+  gap: 2rem;
+  order: 1;
+}
+
+.place-images .board {
+  width: 16vw;
+  position: relative;
+}
+
+.place-images .place {
+  width: 18vw;
+  position: relative;
+  bottom: 30%;
+  left: 15%;
+}
+
+.btn {
+  order: 2;
+  padding: 1rem;
+  background-color: #fff;
+  width: 90%;
+  font-size: 1.8rem;
+  margin: 2rem;
+}
+
+.detials {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+
+.detials h4 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #f78c89;
+  order: 1;
+}
+
+.detials hr {
+  order: 3;
+  width: 50%;
+}
+
+/* Partner Section */
+
+#partners {
+  background-color: #414246;
+  padding-bottom: 3rem;
+}
+
+#partners .heading h2 {
+  color: #fff;
+}
+
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+/* Footer */
+
+footer {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  justify-content: center;
+}
+
+.footer-content h3 {
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+/* About Page CSS */
+
+.content-about {
+  align-items: center;
+  margin: 2rem;
+}
+
+.content-about h1 {
+  text-align: center;
+}
+
+.content-about .detial {
+  text-align: center;
+  background-color: #fff;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.contact h3 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 25px;
+  color: #7a7a7a;
+  text-align: center;
+}
+
+.contact h4 {
+  font-size: 1.3rem;
+}
+
+#View .heading h2 {
+  font-weight: 900;
+  font-size: 2.8rem;
+  color: #000;
+  text-align: center;
+}
+
+#Memories .heading h2 {
+  color: #000;
+  font-weight: 900;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.heading .img-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+}
+
+#Memories .photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 3rem;
+  margin-bottom: 5rem;
+  width: 100%;
+  height: 100%;
+}
+
+/* Photo-Curtain Code */
+
+.photo-frame {
+  position: relative;
+}
+
+.photos .lahore,
+.photos .North-Pak {
+  display: block;
+  width: 100%;
+}
+
+.photo-curtain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ec5342;
+  opacity: 0.5;
+}
+
+.photo-curtain:hover,
+.photo-curtain:active {
+  opacity: 0;
+}
+
+/* Desktop Version */
+
+@media only screen and (min-width: 768px) {
+  .heading {
+    margin: 1px 0;
+  }
+
+  #mobile-nav {
+    display: none;
+  }
+
+  #pre-nav {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: flex-end;
+    gap: 1.6rem;
+    background-color: #3e3e3e;
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0.8rem;
+  }
+
+  .pre-nav-link {
+    display: flex;
+    list-style: none;
+    gap: 1.4rem;
+    padding-right: 8rem;
+  }
+
+  #main-nav {
+    background-color: #fff;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #main-nav .logo {
+    width: 8vw;
+    margin: 0 65%;
+  }
+
+  #main-nav .main-nav-link {
+    display: flex;
+    font-size: 1.6rem;
+    gap: 7rem;
+    align-items: center;
+    list-style: none;
+    font-weight: 800;
+    margin-right: 5%;
+  }
+
+  .prog-see a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #main-nav .main-nav-link li a {
+    text-decoration: none;
+    color: #868686;
+  }
+
+  #main-nav .main-nav-link li a:hover,
+  #main-nav .main-nav-link li a:active {
+    color: #ec5342;
+  }
+
+  #main-nav .main-nav-btn {
+    height: auto;
+    width: fit-content;
+    padding: 1rem;
+    border: 5px solid #ec5342;
+    background-color: transparent;
+    color: #ec5342;
+    display: flex;
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: 800;
+  }
+
+  #main-nav .main-nav-btn:hover,
+  #main-nav .main-nav-btn:active {
+    background-color: #ec5342;
+    color: #fff;
+  }
+
+  .aeroplane {
+    width: 4%;
+    animation: fly 5s infinite ease-in-out 1s;
+  }
+
+  @keyframes fly {
+    from {
+      transform: translateX(0%);
+    }
+
+    to {
+      transform: translateX(2350%);
+    }
+  }
+
+  .content-flex {
+    flex-direction: row;
+  }
+
+  .content {
+    margin-left: 6%;
+    margin-right: 2%;
+  }
+
+  .content h1 {
+    font-size: 3rem;
+  }
+
+  .content h2 {
+    font-size: 3.5rem;
+  }
+
+  .detial {
+    padding: 2%;
+    font-size: 1.6rem;
+  }
+
+  .date {
+    font-size: 2rem;
+  }
+
+  .copywrite {
+    font-size: 1.5rem;
+  }
+
+  .map {
+    display: block;
+    width: 100%;
+    height: 30vh;
+  }
+
+  #programs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #programs .prog-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 4rem;
+  }
+
+  #programs .prog {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+
+  .content-about {
+    margin: 0 auto;
+    padding-top: 4%;
+  }
+
+  .content-about h2 {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-about .detial {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    width: 80%;
+  }
+
+  #programs .prog h2 {
+    font-size: 1.7rem;
+  }
+
+  .heading p {
+    font-size: 2rem;
+  }
+
+  .detials p {
+    font-size: 1.2rem;
+  }
+
+  #Memories p {
+    font-size: 2rem;
+  }
+
+  #Veiw p {
+    font-size: 2rem;
+  }
+
+  #programs .prog p {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: inherit;
+  }
+
+  #programs .trip {
+    display: none;
+  }
+
+  .prog-see {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    align-items: center;
+    padding: 2.2rem;
+  }
+
+  .prog-see hr {
+    width: 20%;
+  }
+
+  #featured .btn,
+  #featured .heading {
+    display: none;
+  }
+
+  #featured {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 8rem;
+  }
+
+  .heading-grid {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    padding: 4rem;
+  }
+
+  .heading-grid hr {
+    width: 10%;
+    background-color: #ec5342;
+    height: 4px;
+  }
+
+  .place-images .board {
+    width: 8vw;
+  }
+
+  .place-images .place {
+    width: 10vw;
+    bottom: 38%;
+  }
+
+  .detials {
+    margin-left: 2rem;
+  }
+
+  footer {
+    display: block;
+  }
+
+  .footer-content img {
+    width: 10%;
+  }
+
+  #View .heading h2 {
+    font-size: 3rem;
+  }
+
+  .detials h4 {
+    font-size: 1.1rem;
+  }
+
+  .heading img {
+    width: 20%;
+  }
+
+  #Memories .heading {
+    font-size: 3rem;
+  }
+
+  #Memories .photos {
+    flex-direction: row;
+  }
+
+  .photos .lahore,
+  .photos .North-Pak {
+    display: block;
+    height: 30vw;
+  }
+
+  .partners-about {
+    display: none;
+  }
+
+  .About-footer {
+    background-color: #17181b;
+  }
+
+  .About-footer .footer-content {
+    margin: 0;
+  }
+
+  .About-footer .footer-content h3 {
+    color: #fff;
+  }
+
+  #programs .prog img {
+    position: unset;
+  }
+}

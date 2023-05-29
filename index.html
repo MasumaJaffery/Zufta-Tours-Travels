@@ -1,12 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e4617bc15f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/e4617bc15f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Zufta Travel and Tours</title>
 </head>
 <body>
-    
+    <header>
+        <nav id=mobile-nav>
+            <button type="button" id="togglebtn"><i class="fa-solid fa-bars"></i></button>
+            <a href = "index.html"><img src = "Images/Logo-Mobile.png" alt= "logo"></a>
+            <div id="container" class="invisible">
+                <button type="button" id="closebtn"><i class="fa-solid fa-xmark"></i></button>
+                <ul>
+                    <li><a href = "About.html">About</a></li>
+                    <li><a href = "index.html">Program</a></li>
+                    <li><a href = "index.html">Join</a></li>
+                    <li><a href = "index.html">Sponsor</a></li>
+                    <li><a href = "index.html">News</a></li>
+                </ul>
+                <button type="button" class="nav-btn">Plan My Trip!</button>
+            </div>
+        </nav>
+        <nav id = "pre-nav">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <ul class = "pre-nav-link">
+            <li>English</li>
+            <li>My Page</li>
+            <li>Logout</li>
+            </ul>
+        </nav>
+        <nav id = "main-nav">
+        <a href = "index.html"><img class = "logo" src = "Images/Logo.png" alt = "logo"></a>
+        <ul class = "main-nav-link">
+            <li><a href = "About.html">About</a></li>
+            <li><a href = "index.html">Program</a></li>
+            <li><a href = "index.html">Join</a></li>
+            <li><a href = "index.html">Sponsor</a></li>
+            <li><a href = "index.html">News</a></li>
+            <button class = "main-nav-btn" type = "button">Plan My Trip!</button>
+        </ul>
+        </nav>
+        <img class = "aeroplane" src = "Images/airplane.png" alt = "plane">
+        <div class = "content-flex">
+        <div class="content">
+            <h1>Hello Travel Lovers!</h1>
+            <h2><span>Zufta Tours & Travels</span>
+                <span>To Travel is to Live</span>
+            </h2>
+            <div class="detial">
+                Zufta Travel and Tours is the Largest and most reliable tourism company in Pakistan with lots of
+                satisfied clients and we have arranged almost over 500 tours successfully. We also arrange tours for
+                foreigners who came to Pakistan and Explore nature beauty at its best. So, pack your bags and visit
+                your dream places in Pakistan.
+            </div>
+            <div class="date">
+                <h3>2023.12.22(MON) ~ 23(TUE)</h3>
+            </div>
+            <div class="copywrite">@ Pakistan,Lahore-Zufta Tours and Travels</div>
+        </div>
+            <img class = "map" src = "Images/WorldMap.png" alt = "map">
+        </div>
+    </header>
+    <main>
+        <section id="programs">
+            <div class="heading">
+            <h2>Main Programs</h2>
+            <hr>
+            </div>
+            <div class = "prog-flex">
+            <div class="prog">
+                <img src="Images/program_icon_01.png" alt = "program-icon">
+                <h2>Travel Guide</h2>
+                <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+            </div>
+            <div class="prog">
+                <img src="Images/program_icon_02.png" alt = "program-icon">
+                <h2>Nature Photos</h2>
+                <p>Appreciate various Photos of Nature organized from Art Center of Places.</p>
+            </div>
+            <div class="prog">
+                <img src="Images/program_icon_03.png" alt = "program-icon">
+                <h2>Travel Forums</h2>
+                <p>Have the time to share your thoughts and opinions with tourist.</p>
+            </div>
+            <div class="prog">
+                <img src="Images/program_icon_04.png" alt = "program-icon">
+                <h2>Discovery</h2>
+                <p>Try creating your own research using by just watching at Nature.</p>
+            </div>
+            <div class="prog">
+                <img src="Images/program_icon_05.png" alt = "program-icon">
+                <h2>Amusement</h2>
+                <p>Get opportunities to visit places around the world.</p>
+            </div>
+            </div>
+            <button type="button" class="trip">Plan My Trip!</button>
+            <div class = "prog-see"><a href = "index.html">See the Whole Program</a> <hr></div>
+            </div>
+        </section>
+        <div class="heading-grid">
+            <h2>Featured Places</h2>
+            <hr>
+            </div>
+        <section id="featured">
+            <div class="heading">
+                <h2>Featured Places</h2>
+                <hr>
+                </div>
+                <button type = "button" class = "btn">More <img src = "Images/down-arrow.png" alt = "down-arrow"></button>
+        </section>
+        <section id="partners">
+            <div class="heading">
+                <h2>Partner</h2>
+                <hr>
+            </div>
+            <ul class="brands">
+                <li><img src="Images/mozilla 1.svg" alt = "partner"></li>
+                <li><img src="Images/googlekorea 1.svg" alt = "partner"></li>
+                <li><img src="Images/naver 1.svg" alt = "partner"></li>
+                <li><img src="Images/daumkakaologo 1.svg" alt = "partner"></li>
+                <li><img src="Images/airbnb 1.svg" alt = "partner"></li>
+            </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+    <div class = "footer-content">
+    <img src = "Images/Logo.png" alt = "logo">
+    <h3>2023 Zufta Travels & Tours by @MasumaJaffery.Some Rights Reserved.</h3>
+    </div>
+    </footer>
 </body>
 </html>
